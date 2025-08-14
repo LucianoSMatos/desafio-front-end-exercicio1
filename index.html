@@ -1,69 +1,67 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Minha Página Completa</title>
+  <link rel="icon" href="img/logo.svg" type="image/png">
+  <title>Desafio Front-End</title>
   <link rel="stylesheet" href="style.css"> <!-- Link para o CSS externo -->
 </head>
+
 <body>
 
   <!-- Cabeçalho -->
   <header>
-    <h1>Minha Página</h1>
+
+    
+    <div id="logo">
+      <img src="img/logo.svg" width="74"   alt="Logo">
+    </div>
     <nav>
       <ul>
-        <li><a href="#inicio">Início</a></li>
-        <li><a href="#sobre">Sobre</a></li>
-        <li><a href="#contato">Contato</a></li>
+        <li><a href="#">Menu Item1</a></li>
+        <li><a href="#">Menu Item 2</a></li>
+        <li><a href="#">Menu Item 3</a></li>
       </ul>
     </nav>
   </header>
 
   <!-- Conteúdo principal -->
   <main>
-    <section id="inicio">
-      <h2>Bem-vindo!</h2>
-      <p>Esta é a seção inicial da página.</p>
+    <section id="hero">
+      <img src="img/hero-image.webp" title="Hero Image" alt="Hero Image">
     </section>
 
-    <section id="sobre">
-      <h2>Sobre Nós</h2>
-      <p>Informações sobre o site ou a empresa.</p>
+    <section id="gallery">
+      <div class="gallery-item">
+        <img src="img/burger-fries-1.webp" alt="Burger and Fries 1">
+      </div>
+      <div class="gallery-item">
+        <img src="img/burger-fries-1.webp" alt="Burger and Fries 2">
+      </div>
+      <div class="gallery-item">
+        <img src="img/burger-fries-1.webp" alt="Burger and Fries 3">
+      </div>
+      <div class="gallery-item">
+        <img src="img/burger-fries-1.webp" alt="Burger and Fries 4">
+      </div>
     </section>
 
-    <section id="contato">
-      <h2>Contato</h2>
-      <form>
-        <label for="nome">Nome:</label><br>
-        <input type="text" id="nome" name="nome" required><br>
+    <section id="about">
+      <h2>Sobre o site</h2>
+      <p>Desafio DE Front-End</p>
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br>
-
-        <label for="mensagem">Mensagem:</label><br>
-        <textarea id="mensagem" name="mensagem" required></textarea><br>
-
-        <button type="submit">Enviar</button>
-      </form>
     </section>
   </main>
 
-  <!-- Barra lateral (opcional) -->
-  <aside>
-    <h3>Notícias</h3>
-    <ul>
-      <li><a href="#">Notícia 1</a></li>
-      <li><a href="#">Notícia 2</a></li>
-    </ul>
-  </aside>
-
   <!-- Rodapé -->
   <footer>
-    <p>&copy; 2025 Minha Empresa. Todos os direitos reservados.</p>
+    <p>&copy; 2025 Desafio Front-End.</p>
   </footer>
 
   <!-- Script JS externo -->
   <script src="script.js"></script>
 </body>
+
 </html>
